@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem; /* Increased horizontal padding */
+  font-family: 'Comfortaa', cursive;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 120px; /* Larger logo */
+}
+
+.logo-text {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  padding: 0 1rem;
+}
+
+nav a {
+  font-size: 1.8rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #4a4a4a; /* Subtle color for normal state */
+  transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+nav a:hover,
+nav a:focus {
+  color: #000; /* Darker color for hover state */
+  text-decoration: none; /* Maintain no underline on hover */
+}
+
+/* Header.css */
+.logo-link {
+  text-decoration: none; /* Removes underline from link */
+  color: inherit; /* Inherits text color from parent */
+  display: flex; /* Keeps the logo and text inline */
+  align-items: center; /* Centers logo and text vertically */
+}
+
+
+  

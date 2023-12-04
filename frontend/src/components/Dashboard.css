@@ -1,0 +1,107 @@
+/* Dashboard.css */
+.dashboard-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    text-align: center; /* Center text */
+    height: 100vh; /* Full height of the viewport */
+    background-size: cover;
+    position: relative;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .user-avatar {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image round */
+  }
+  
+  .friends-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .friend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .friend-avatar {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 10px;
+  }
+  
+  
+  /* Apply a semi-transparent overlay */
+  .dashboard-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(222, 188, 115, 0.9); /* White overlay with 70% opacity */
+    z-index: 1;
+  }
+  
+  /* Ensure content is above the overlay */
+  .dashboard-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .friends-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center the friends in the list */
+  }
+  
+  /* Style for the new virtual friend button */
+  .create-friend-button {
+    width: 500px;
+
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #f0ad4e; /* Example styling, adjust as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .create-friend-button:hover {
+    background-color: #ec971f; /* Darken button on hover, for example */
+  }
+  
+  /* Additional styles to separate sections visually */
+  .virtual-friends-section {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for readability */
+    border-radius: 8px; /* Rounded corners for the section */
+  }
+  /* Other styles */
+  /* ... */
+  
+  .username-dash {
+    font-size: 100px;
+    font-weight: bold;
+  }
+
+  .mbti-dash {
+    font-size: 30px;
+  }

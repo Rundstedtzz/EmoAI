@@ -1,0 +1,71 @@
+/* SignUp.css */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+  }
+  
+  .signup-form {
+    width: 100%;
+    max-width: 350px; /* Set a maximum width for the form */
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Apply the same styles to both input and select elements */
+  .signup-form input,
+  .signup-form select { /* <-- Add select here */
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't add to the width */
+    -webkit-appearance: none; /* Removes default styling on iOS */
+    -moz-appearance: none; /* Removes default styling on Firefox */
+    appearance: none; /* Removes default styling */
+  }
+  
+  /* Style the arrow icon on the select element */
+  .signup-form select {
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z" fill="%23aaa"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 0.65em;
+  }
+  
+  .signup-form button {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signup-form .signup-links {
+    margin-top: 1rem;
+  }
+  
+  .signup-form .signup-links a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  .signup-logo {
+    max-height: 100px; /* Adjust to fit your design */
+    width: auto; /* Keep the aspect ratio */
+    margin-bottom: 1rem; /* Space between the logo and the form title */
+  }
+
+  
+  /* Add other styles as needed */
+  

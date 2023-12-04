@@ -1,0 +1,195 @@
+/* CreateFriend.css */
+
+.create-friend-container {
+    display: flex; /* Use flexbox to create a row */
+    padding: 20px;
+    width: 100%;
+    align-items: flex-start; /* Align children to the start of the cross axis */
+  }
+  
+  .selection-container {
+    flex: 1; /* Take up only necessary space based on content */
+    display: flex; /* Make this also a flex container */
+    flex-direction: column; /* Stack the mbti-types and traits vertically */
+    margin-right: 20px; /* Add margin to separate from avatar-and-name container */
+  }
+  
+  .mbti-types, .traits {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mbti-row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .mbti-button {
+    margin: 10px;
+    padding: 50px 50px; /* Adjust padding to fit content */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #806565; /* Text color */
+    font-size: 25px; /* Font size */
+    flex-grow: 1; /* Buttons take up equal space in the flex container */
+  }
+  
+  /* Colors for MBTI buttons */
+  .lightpurple { background-color: #b68bce; }
+  .lightgreen { background-color: #94dda9; }
+  .lightyellow { background-color: #dddd94; }
+  .lightblue { background-color: #94badd; }
+  
+  .mbti-button:hover {
+    opacity: 0.8;
+  }
+  
+  .traits {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Align the buttons vertically */
+    flex-wrap: nowrap; /* Prevent wrapping to a new line */
+    gap: 10px; /* Space between the buttons */
+  }
+  
+  .trait-button {
+    padding: 15px; /* Adjust padding to maintain circle shape */
+    width: 1060px; /* Adjust width to fit content */
+    height: 100px; /* Same as width to maintain circle shape */
+    display: flex;
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 25px; /* Adjust font size as needed */
+    background-color: #f0f0f0; /* Default background */
+    /* Ensure text doesn't wrap */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 10px;
+  }
+  
+  .trait-button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Add styles for when a trait is selected */
+  .selected {
+    border: 2px solid #333; /* Add a border to indicate selection */
+    background-color: #d74b4b; 
+  }
+  
+  .avatar-and-name-container {
+    flex: 1; /* Take up the remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .avatar-display img {
+    width: 400px; /* Adjust size as needed */
+    height: 400px; /* Adjust size as needed */
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .friend-name-input {
+    width: 500px; /* Take the full width of the parent container */
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 800px) {
+    .create-friend-container {
+      flex-direction: column;
+    }
+  
+    .selection-container, .avatar-and-name-container {
+      width: 100%;
+    }
+  
+    .mbti-row, .traits {
+      justify-content: center;
+    }
+  
+    .mbti-button, .trait-button {
+      padding: 5px;
+      font-size: 14px;
+    }
+  }
+  
+  .placeholder-avatar-and-name {
+    width: 100%; /* Full width of the parent container */
+    height: 600px; /* Set a fixed height to match the avatar size */
+    margin-bottom: 20px;
+  }
+
+  .start-chat-button {
+    /* width: 500px; */
+    padding: 20px 100px;
+    background-color: #4caf50; /* Example primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 20px; /* Space above the button */
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-chat-button:hover {
+    opacity: 0.8;
+  }
+
+  .custom-prompt-input {
+    width: 500px; /* It will take the full width of its parent container */
+    /* ... other styles ... */
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .generate-avatar-button {
+    width: 500px;
+    padding: 20px 100px;
+    background-color: #4caf50; /* Example primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 20px; /* Space above the button */
+    transition: background-color 0.3s ease;
+  }
+  
+  .loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .dash-button{
+    width: 500px;
+    padding: 20px 100px;
+    background-color: #4caf50; /* Example primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 20px; /* Space above the button */
+    transition: background-color 0.3s ease;
+  }

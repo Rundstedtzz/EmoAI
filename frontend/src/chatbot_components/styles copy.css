@@ -1,0 +1,118 @@
+/* General Chatbot Styles */
+.chatbot {
+  font-family: monospace;
+  border-radius: 10px;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.15);
+  background: #f5f8fb;
+  display: flex;
+  flex-flow: column;
+  width: 500px;
+  overflow: hidden;
+}
+
+.header_friend {
+  padding: 20px;
+  color: #fff;
+  background-color: #274f6b;
+  opacity: 0.75;
+}
+
+.messages {
+  height: 755px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.message-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Bot Message Styles */
+.bot-message-container {
+  justify-content: flex-start;
+}
+
+.bot-message {
+  background: #00aaa5;
+  padding: 20px 30px;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  max-width: 60%;
+  border-radius: 20px 20px 20px 0;
+  word-break: break-word;
+}
+
+.user-message-container {
+  justify-content: flex-end;
+  flex-direction: row-reverse; /* Flips the order of avatar and message */
+}
+
+.user-message {
+  background: #cccccc;
+  color: black;
+  font-size: 25px;
+  max-width: 60%;
+  padding: 20px 30px;
+  text-align: left;
+  border-radius: 20px 20px 0 20px;
+  word-break: break-word;
+  margin-left: auto; /* Pushes the message to the right */
+}
+
+/* Input Styles */
+.input {
+  position: relative;
+  padding: 10px;
+  background: #fff;
+  border-top: 1px solid #ddd; /* Separates input from chat messages */
+  box-shadow: 0 -1px 5px rgba(0,0,0,0.1); /* Soft shadow above the input */
+}
+
+.input input[type="text"] {
+  font-size: 25px;
+  border: 2px solid #eee; /* Subtle border around the input */
+  border-radius: 18px; /* Rounded corners */
+  padding: 10px 20px; /* Comfortable padding inside the input */
+  width: calc(95% - 48px); /* Adjust width to account for padding and button */
+  box-sizing: border-box;
+  transition: border-color 0.3s; /* Smooth transition for focus */
+}
+
+.input input[type="text"]:focus {
+  outline: none;
+  border-color: #bbb; /* Highlight color on focus */
+}
+
+.input button {
+  background: hsl(40, 89%, 55%); /* Button color that stands out */
+  border: none;
+  border-radius: 50%; /* Circular button */
+  padding: 8px; /* Size of the button */
+  cursor: pointer;
+  position: absolute;
+  right: 18px; /* Align with the input padding */
+  top: 50%;
+  transform: translateY(-50%); /* Center the button vertically */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.input button:hover {
+  background-color: #1a3a56; /* Darker shade on hover */
+}
+
+.input svg {
+  fill: #fff; /* SVG icon color */
+}
+
+/* Avatar Styles */
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
