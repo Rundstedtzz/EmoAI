@@ -85,6 +85,29 @@ Watch our Video Overview (https://github.com/Rundstedtzz/EmoAI/assets/63605514/e
 - **Permissions**: [New Model]
 - **Code**: [New Model]
 
+## Data Card for EmoAI's MBTI and Social Media Dataset
+
+### MBTI Knowledge Data
+- **Description**: This dataset consists of information related to the Myers-Briggs Type Indicator (MBTI) personality framework, scraped from publicly available educational and informational websites such as 16 Personalities website.
+- **Source**: Publicly available websites offering MBTI-related content.
+- **Volume**: 16 personalities * 8 sections (128 lines of JSON)
+- **Fields**: MBTI types, descriptions, characteristics, potential career paths, and interpersonal relationships.
+- **Usage**: To fine-tune the GPT-3.5 model or as knowledge base for GPT 4 model for personality type-based conversational behavior and to serve as a reference for personality-aligned responses.
+- **Permissions**: Data scraped in compliance with the terms of service and public domain status of the source websites.
+
+### Social Media Interaction Data
+- **Description**: A dataset composed of user-generated content from social media platforms such as Twitter and Quora, focusing on topics related to personal experiences, opinions, and discussions for different MBTI personality types.
+- **Source**: Public posts from Twitter and Quora (Developer API calls).
+- **Volume**: 1500 posts per free developer account
+- **Fields**: Post content, user interactions, hashtags, and metadata related to the posts.
+- **Usage**: Employed as a knowledge base for retrieval by the GPT-4 model or fine-tune GPT 3.5 to inform and enrich the AI's conversational context and relevance.
+- **Permissions**: Collected following the API terms of service and public data policies of the respective platforms.
+
+### Ethical Considerations
+- **Privacy**: All personal information is anonymized and that the data usage complies with privacy laws and regulations.
+- **Bias Mitigation**: Steps have been implemented to identify and mitigate biases in the data, aiming to provide balanced and fair content.
+- **Data Handling**: Secure storage and handling practices are in place to protect the integrity and confidentiality of user data.
+
 ## Critical Analysis
 
 ### Impact of the Project
