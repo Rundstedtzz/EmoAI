@@ -89,10 +89,10 @@ Watch our [Video Overview]('https://github.com/Rundstedtzz/EmoAI/assets/63605514
 ## Critical Analysis
 
 ### Impact of the Project
-EmoAI has the potential to significantly impact mental health by providing a readily available source of companionship and support. It can alleviate feelings of loneliness and serve as a first step towards seeking professional help.
+EmoAI has the potential to significantly impact mental health by providing a readily available source of companionship and support. This technology bridges the gap for those who may be isolated or unable to access traditional support structures. By providing a non-judgmental, always-available AI friend, EmoAI can help reduce the weight of loneliness and may encourage individuals to take further steps in their mental health journey, potentially acting as a catalyst for seeking professional mental health services.
 
 ### What EmoAI Reveals or Suggests
-The interaction data gathered can provide insights into common stressors and issues faced by individuals, which can inform future mental health research.
+Through user interactions, EmoAI can collect data that shed a light on prevalent mental health challenges and the types of support users seek from virtual companions. These insights could be invaluable for mental health professionals, allowing them to tailor their services to meet the evolving needs revealed by EmoAI interaction patterns. Additionally, it suggests the importance of emotional intelligence in AI development, underlining the role AI can play in promoting mental well-being.
 
 ### The Next Step
 - AI virtual communities (AI towns)
@@ -102,6 +102,9 @@ The interaction data gathered can provide insights into common stressors and iss
 - Social Media Posts for fine-tuning (more-real-life-like-interactions)
 - Each MBTI type with one fine-tuned model
 - A new page for Conversation logs & continue chat with friends
+- More around data security & ethical concerns
+
+The goal is to create an AI companion that not only understands but resonates with the emotional states of users from diverse linguistic backgrounds, ultimately making mental health support more universally accessible.
 
 ## Contributing
 
