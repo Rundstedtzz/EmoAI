@@ -42,11 +42,11 @@ To get started with EmoAI:
 
 ## Presentation Materials
 
-[presentation slides]('https://docs.google.com/presentation/d/1ymOvAbh-hP2Ztcd8Nbiiz-M-_oK5v5yTK_iHSk_WFK8/edit?usp=sharing')
+Presentation slides: https://docs.google.com/presentation/d/1ymOvAbh-hP2Ztcd8Nbiiz-M-_oK5v5yTK_iHSk_WFK8/edit?usp=sharing
 
 ## Video Recording
 
-Watch our [Video Overview]('https://github.com/Rundstedtzz/EmoAI/assets/63605514/ef820f25-8c09-451e-96ca-df6cdeae4d78') for a brief overview of EmoAI and its features.
+Watch our Video Overview (https://github.com/Rundstedtzz/EmoAI/assets/63605514/ef820f25-8c09-451e-96ca-df6cdeae4d78) for a brief overview of EmoAI and its features.
 
 ## Model/Dataset Card for EmoAI
 
